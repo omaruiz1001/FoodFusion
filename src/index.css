@@ -1,0 +1,281 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.peru{
+  width: 2.5em;
+  height: 1.8rem;
+  border-radius: 7px;
+}
+
+.theme-color{
+  color: #ff441f;
+  font-weight: bold;
+}
+
+.gap{
+  gap: 9rem;
+  padding-left: 2rem;
+  padding-top: 0.50rem;
+  padding-bottom: 0.50rem;
+}
+.gap .text-logo{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #ff441f;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+.width{
+  width: 6rem;
+}
+
+.menubars{
+  display: none;
+}
+.nav-section{
+  display: none;
+}
+@media (max-width:768px){
+  .navbar-sections{
+    display: none!important;
+  }
+  .header-motion img{
+    width: 7rem;
+    height: 6rem;
+  }
+  .header .header-motion{
+    width: 6.75rem;
+    height: 6.75rem;
+  }
+  .header .header-absolute{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+  }
+  .header-description .header-title{
+    font-size: 2.3rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  .p-lg-5 .shop-title{
+    font-size: 3rem;
+  }
+  .p-lg-5 .shop-text{
+    font-size: 1rem;
+  }
+  .logoperrito{
+    width: 20rem;
+  }
+  .Tienda .swiper-button-next{
+    position: absolute;
+    top: 2%;
+    right: 14%
+  }
+  .Tienda .swiper-button-prev{
+    position: absolute;
+    top: 2%;
+    left: 87%;
+  }
+  .big-container .big-title{
+    font-size: 2rem;
+  }
+  .dropdown .dropdown-contenedor .dropdown-title{
+    font-size: 2rem;
+  }
+  .dropdown-container .dropdown-toggle{
+    font-size: 0.9rem;
+  }
+  .menu-dropdown{
+    font-size: 0.8rem;
+  }
+}
+
+.navbar-sections{
+  gap: 3rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* <div>
+        <button className={`"navbar-toggler" ${isMovil ? "" : "menubars"}`} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </div> */
+
+.gap a{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+  font-size: 1rem;
+}
+.btns{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+.img-header{
+  background-image: url("./assets/bg_image_tablet_1440_a7dfd55d2c.webp");
+  background-position: right ;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  min-width: 100%;
+  position: relative;
+  height: 45rem;
+}
+
+.header-absolute{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 35%;
+  left: 8%;
+}
+
+.header-title{
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.header-motion{
+  width: 18.75rem;
+  height: 18.75rem;
+}
+.header-btn{
+  width: 12rem;
+}
+
+.background-container{
+  background-image: url("./assets/background-section-1_4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+  height: 50rem;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.shop-title{
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.span{
+  color: #ff441f;
+}
+.shop-text{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.swiper-img{
+  width: 10rem;
+  height: auto;
+}
+
+
+
+.swiper{
+  position: relative;
+  padding: 5rem;
+  --swiper-theme-color: rgb(81, 80, 80);
+  --swiper-navigation-size: 12px ;
+}
+.swiper-button-next, .swiper-button-prev {
+  background-color: rgba(111, 111, 112, 0.05);
+  border-radius: 50%; /* Da forma circular a las flechas */
+  border: 3px solid rgb(111, 111, 112);;
+  padding: 1rem;
+}
+
+.swiper-button-next{
+  position: absolute;
+  top: 2%;
+  right: 5.5%
+}
+.swiper-button-prev{
+  position: absolute;
+  top: 2%;
+  left: 90%;
+}
+
+.item-swiper{
+  box-shadow: 0 32px 32px #3329270d;
+  width: 19rem;
+  height: 25rem;
+}
+
+.item-h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item-span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+}
+
+.bigImg{
+  width: 40rem;
+  height: auto;
+}
+.max-width{
+  max-width: 40rem;
+}
+.big-title{
+  font-size: 3rem;
+}
+.max-width h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.menu-dropdown {
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  
+   /* Transición suave para la altura máxima */
+}
+
+.dropdown-toggle{
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.dropdown-title{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 0.80rem;
+}
+
+
+/*Footer*/
+
+.footer{
+  background-color: #2e2c36;
+}
+
+.footer-icon{
+  border: 2px solid gainsboro;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  scale: 1;
+  transition: scale 0.5s;
+}
+.footer-icon:hover{
+  scale: 1.3;
+}
